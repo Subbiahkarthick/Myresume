@@ -1,0 +1,136 @@
+body {
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
+  margin: 0;
+  font-family: "Alata", sans-serif;
+}
+.header {
+  background-color: black;
+  height: 200px;
+}
+
+.name {
+  font-size: 36px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  color: white;
+}
+
+.mailid {
+  font-size: 16px;
+  text-align: center;
+  color: goldenrod;
+  letter-spacing: 2px;
+}
+.phno {
+  margin: 20px 0;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: goldenrod;
+}
+
+.phno .slash {
+  margin: 0 5px;
+}
+
+.section {
+  /* background-color: blue; */
+  margin: 30px 20px;
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+.section .sec1 {
+  width: 40%;
+  margin-right: 20px;
+  /* background-color: purple; */
+}
+.section .sec2 {
+  width: 60%;
+  height: 100px;
+  /* background-color: pink; */
+  margin-left: 20px;
+}
+.sec1 .box {
+  /* height: 100px; */
+  margin-bottom: 30px;
+  /* background-color: green; */
+}
+.sec1 .box .sectionheader {
+  height: 50px;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: goldenrod;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.sec1 .box .sectionfooter {
+  padding: 15px 0;
+}
+.sec2 .box {
+  /* height:100px; */
+  margin-bottom: 20px;
+  /* background-color: green; */
+}
+.sec2 .box .rightsecheader {
+  height: 50px;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: goldenrod;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.sec2 .box .rightsecfooter {
+  padding: 15px 0;
+}
+.sec2 .box .sectop {
+  height: 50px;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: goldenrod;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.sec2 .box .secbottom {
+  padding: 15px 0;
+}
+.sec2 .box .secheader {
+  height: 50px;
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: goldenrod;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+  text-transform: uppercase;
+}
+.sec2 .box .secfooter {
+  padding: 15px 0;
+}
